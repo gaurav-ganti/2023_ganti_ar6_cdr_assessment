@@ -1,0 +1,19 @@
+name: ar6_cdr_assessment
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - pip>19
+  - ipywidgets
+  - nb_black
+  - nbdime
+  - matplotlib>=3.3
+  - pooch
+  - pytest
+  - seaborn
+  - scmdata>=0.11
+  - tqdm
+  - pip:
+      - climate-assessment
+      - git+https://gitlab.com/climateanalytics/tradeoff_scenarios.git
